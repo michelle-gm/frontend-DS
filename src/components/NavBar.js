@@ -29,7 +29,9 @@ export const NavBar = () => {
       <Container>
         {/* En esta parte es preferible poner una imagen para hacerlo mas similar al boceto */}
         <Navbar.Brand href="#home">
-            <img src={logo} alt="Logo"/>
+            <div class="logo-image">
+                <img src={logo} alt="Logo" height="100"/>
+            </div>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav">
             <span className="navbar-toggler-icon"></span>
