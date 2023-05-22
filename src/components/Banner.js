@@ -1,7 +1,7 @@
 // import { useState, useEffect } from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import { ArrowRightCircle } from "react-bootstrap-icons";
-import headderImg from "../assets/img/headderImg.jpg";
+import float from "../assets/img/float.png";
 
 export const Banner = () => {
   return (
@@ -17,7 +17,8 @@ export const Banner = () => {
             </button>
           </Col>
           <Col xs={12} md={6} xl={5}>
-            <img src={headderImg} alt="Headder Img" />
+            {/* Se puede quitar o Dejar,tambien se le puede cambiar el icono, como se prefiera */}
+            <img src={float} alt="Headder Img" />
           </Col>
         </Row>
       </Container>
