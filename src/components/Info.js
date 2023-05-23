@@ -67,7 +67,7 @@ export const Info = () => {
                   <img src={llamada} alt="imagen" width={100} height={100} />
                   <h5>Llamanos a nuestra línea</h5>
                   {/* se debe poner el número de telefono que sale en el boceto */}
-                  <p>un número de telefono</p>
+                  <p>018000 91 2345</p>
                 </div>
                 <div className="item">
                   <img
