@@ -1,5 +1,5 @@
 import { Col, Container, Row } from "react-bootstrap";
-import { Facebook, Instagram, Linkedin } from "react-bootstrap-icons";
+import { Facebook, Instagram, Linkedin, Twitter, Whatsapp, Youtube } from "react-bootstrap-icons";
 import logo from "../assets/img/logo.jpeg";
 
 export const Footer = () => {
@@ -18,10 +18,19 @@ export const Footer = () => {
                 <Facebook size={25} />
               </p>
               <p>
-                <Instagram size={25} />
+                <Instagram size={20} />
               </p>
               <p>
-                <Linkedin size={25} />
+                <Linkedin size={20} />
+              </p>
+              <p>
+                <Twitter size={20} />
+              </p>
+              <p>
+                <Youtube size={20} />
+              </p>
+              <p>
+                <Whatsapp size={20} />
               </p>
             </div>
             <p>2023 PayView. All Rights Reserved</p>

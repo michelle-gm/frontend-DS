@@ -33,7 +33,8 @@ export const Info = () => {
       <Container>
         <Row className="align-items-center">
           <Col xs={12} md={6} xl={7}>
-            <h2>PayView te permitirá pagar desde cualquier parte del mundo</h2>
+            <h2>PayView te permitirá pagar</h2>
+            <h2>desde cualquier parte del mundo</h2>
             <p>
               Tenemos un sistema totalmente seguro y confiable para realizar los
               pagos de tu matrícula u otros conceptos de nuestra institución
