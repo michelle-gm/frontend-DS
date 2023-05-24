@@ -2,7 +2,7 @@ import { Col, Container, Row } from "react-bootstrap";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import { InfoCircle } from "react-bootstrap-icons";
-import tarjeta from "../assets/img/tarjeta-de-credito.png";
+import tarjeta from "../assets/img/creditcard.png";
 import chat_linea from "../assets/img/chat-en-linea.png";
 import llamada from "../assets/img/llamada-telefonica.png";
 import cita_llamada from "../assets/img/smartphone.png";
